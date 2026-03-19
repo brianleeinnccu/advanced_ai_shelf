@@ -1,0 +1,6 @@
+path: D:\USER\Desktop\product_train_last3085\yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: product

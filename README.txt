@@ -93,3 +93,10 @@
 環境需求
 --------
   pip install -U ultralytics
+
+
+--------
+測試conf : 
+  1. 步驟1 : 看是要提高哪方面的水準（ex. Precision、Recall或F1-score），查詢該表最高項及其對應信心水準
+  2. 步驟2 : yolo val model=best.pt data=your_dataset.yaml split=test conf=0.5 (測試集專用)
+    #補充：可以用相對路徑（需看自己現在的位置為何）
